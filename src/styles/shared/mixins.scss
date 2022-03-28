@@ -1,0 +1,10 @@
+@mixin title {
+  font-family: $bold;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $black;
+  font-size: 56px;
+  @media (max-width: $md) {
+    font-size: 42px;
+  }
+}

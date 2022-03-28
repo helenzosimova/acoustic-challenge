@@ -1,0 +1,8 @@
+//shared styles
+@import './shared/vars';
+@import './shared/mixins';
+@import './shared/fonts';
+@import './shared/globals';
+
+// components styles
+@import '../pages/HomePage/style.scss';
